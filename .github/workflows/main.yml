@@ -1,5 +1,5 @@
 
-name: Update Plot
+name: Run Python Script
 
 on:
   schedule:
