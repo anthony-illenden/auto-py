@@ -25,3 +25,11 @@ jobs:
 
     - name: Run script
       run: python script.py
+      
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "tonyillenden@gmail.com"
+        git config --local user.name "anthony-illenden"
+        git add output/output.png
+        git commit -m "Update Plot"
+        git push
